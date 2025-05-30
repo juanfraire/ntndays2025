@@ -275,7 +275,7 @@
                 <p class="max-w-2xl mx-auto text-lg text-white/80">
                     Keynote speeches from leading experts, engaging panel discussions, live demos, and vibrant poster sessions await. A full schedule will be released soon.
                 </p>
-                <a href="#" class="mt-10 inline-block px-8 py-3 bg-white text-blue-900 font-semibold rounded-full hover:opacity-90 transition transform hover:scale-105 shadow-lg">
+                <a href="javascript:void(0)" class="mt-10 inline-block px-8 py-3 bg-white text-blue-900 font-semibold rounded-full hover:opacity-90 transition transform hover:scale-105 shadow-lg">
                     Program Coming Soon
                 </a>
             </div>
@@ -288,16 +288,19 @@
             <h2 class="text-3xl md:text-4xl font-bold mb-4">Venue & Location</h2>
             <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6"></div>
             <p class="max-w-3xl mx-auto text-lg text-gray-700">
-                Hosted at the renowned <strong>LAAS-CNRS</strong> in Toulouse, France—a hub of aerospace innovation and academic excellence. Join us at the heart of Europe’s space ecosystem for two inspiring days.
+                Hosted at the renowned <strong>LAAS-CNRS</strong> in Toulouse, France—a hub of aerospace innovation and academic excellence.
+                Join us at the heart of Europe’s space ecosystem for two inspiring days.
             </p>
             <div class="mt-10">
-                <img src="https://via.placeholder.com/1000x400?text=Venue+Image+Placeholder" alt="Venue" class="mx-auto rounded-xl shadow-lg">
+                <a href="https://www.laas.fr/en/" target="_blank" rel="noopener noreferrer">
+                    <img src="logo-laas.jpg" alt="LAAS-CNRS Logo" class="mx-auto max-w-xs md:max-w-sm rounded-xl shadow-lg">
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Stay Informed Section -->
-    <section id="updates" class="py-20 bg-gray-100 section">
+    <!-- <section id="updates" class="py-20 bg-gray-100 section">
         <div class="max-w-xl mx-auto px-4 text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-4">Stay Informed</h2>
             <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-6"></div>
@@ -311,18 +314,33 @@
                 </button>
             </form>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="py-8 bg-white border-t border-gray-200">
         <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500">
             <div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-4">
-                <a href="#" class="hover:text-blue-600">Contact</a>
-                <a href="#" class="hover:text-blue-600">Previous Editions (2023, 2024)</a>
-                <a href="https://www.laas.fr/" target="_blank" rel="noopener noreferrer">
-                    <img src="https://upload.wikimedia.org/wikipedia/fr/6/64/LAAS-CNRS_logo.png" alt="LAAS Logo" class="h-8 inline-block">
+                <a href="mailto:juan.fraire@inria.fr" class="hover:text-blue-600">Contact</a>
+                <span class="text-gray-600">
+                    Previous Editions:
+                    <a href="https://www.irit.fr/Journees_GDR_RSD_ISIS_NTN/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline ml-1">2023</a>,
+                    <a href="https://ntndays2024.imag.fr/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline ml-1">2024</a>
+                </span>
+            </div>
+
+            <!-- Organizer Logos -->
+            <div class="flex flex-wrap justify-center items-center gap-8 mb-6">
+                <a href="https://www.inria.fr/en" target="_blank" rel="noopener noreferrer">
+                    <img src="logo-inria.svg" alt="Inria Logo" class="h-10 hover:opacity-80 transition">
+                </a>
+                <a href="https://www.irit.fr/en/" target="_blank" rel="noopener noreferrer">
+                    <img src="logo-irit.webp" alt="IRIT Logo" class="h-10 hover:opacity-80 transition">
+                </a>
+                <a href="https://www.laas.fr/en/" target="_blank" rel="noopener noreferrer">
+                    <img src="logo-laas.jpg" alt="LAAS Logo" class="h-10 hover:opacity-80 transition rounded">
                 </a>
             </div>
+
             <p>&copy; 2025 NTN Days. All rights reserved.</p>
         </div>
     </footer>

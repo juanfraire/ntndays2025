@@ -149,6 +149,9 @@
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
                     <a href="#topics" class="text-gray-700 hover:text-blue-600 transition">Topics</a>
+                    <a href="#timeline"
+                        class="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full hover:opacity-90 transition">Submit
+                        & Register</a>
                     <a href="#program"
                         class="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full hover:opacity-90 transition">Program</a>
                     <a href="#venue" class="text-gray-700 hover:text-blue-600 transition">Venue</a>
@@ -166,6 +169,9 @@
             <div class="flex flex-col space-y-4">
                 <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
                 <a href="#topics" class="text-gray-700 hover:text-blue-600 transition">Topics</a>
+                <a href="#timeline"
+                    class="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full text-center hover:opacity-90 transition">Submit
+                    & Register</a>
                 <a href="#program"
                     class="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full text-center hover:opacity-90 transition">Program</a>
                 <a href="#venue" class="text-gray-700 hover:text-blue-600 transition">Venue</a>
@@ -199,15 +205,17 @@
                     <span>October 1 and 2, 2025</span>
                 </div>
             </div>
-            <!-- Two Buttons -->
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <!-- Two Buttons (stacked vertically) -->
+            <div class="flex flex-col items-center justify-center gap-4">
+                <!-- Submit & Register Button -->
+                <a href="#timeline"
+                    class="px-8 py-3 bg-white text-blue-900 rounded-full font-medium hover:opacity-90 transition transform hover:scale-105 shadow-lg">
+                    Submit & Register
+                </a>
+                <!-- Program Button -->
                 <a href="#program"
                     class="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium hover:opacity-90 transition transform hover:scale-105 shadow-lg">
-                    Submit
-                </a>
-                <a href="#program"
-                    class="px-8 py-3 bg-white text-blue-900 rounded-full font-medium hover:opacity-90 transition transform hover:scale-105 shadow-lg">
-                    Register
+                    Program
                 </a>
             </div>
             <!-- Subtle Note -->
@@ -415,37 +423,42 @@
         </div>
     </section>
 
-    <!-- Program Highlights -->
-    <section id="program" class="py-20 bg-gradient-to-br from-blue-900 to-indigo-900 text-white section">
+    <!-- Submit & Register -->
+    <section id="timeline" class="py-20 bg-gradient-to-br from-blue-900 to-indigo-900 text-white section">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Program Highlights</h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Submit & Register</h2>
                 <div class="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-6"></div>
                 <p class="max-w-2xl mx-auto text-lg text-white/80 mb-8">
-                    Keynote speeches from leading experts, engaging panel discussions, live demos, and vibrant poster
-                    sessions await.
+                    Join our growing list of participants by submitting your talk or registering to attend. Engage with
+                    keynote speeches, expert panels, live demos, and vibrant poster sessions throughout the event.
                 </p>
-                <!-- <p class="max-w-2xl mx-auto text-lg text-white/80 mb-8">
-                    The final schedule will be released on <strong>September 8</strong>.
-                </p> -->
+
+                <!-- Program Button -->
+                <div class="mb-8 text-center">
+                    <a href="#program"
+                        class="inline-block px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium hover:opacity-90 transition transform hover:scale-105 shadow-lg">
+                        Program
+                    </a>
+                </div>
 
                 <!-- Important Dates -->
                 <div class="max-w-md mx-auto text-left space-y-2 text-white/80 mb-6">
                     <div class="flex items-center justify-between border-b border-white/20 pb-2">
-                        <span>Talk Submission Deadline:</span>
-                        <strong class="text-white">Sep 7</strong>
+                        <span class="line-through text-white/40">Talk Submission Deadline:</span>
+                        <strong class="line-through text-white/40">Sep 7</strong>
                     </div>
                     <div class="flex items-center justify-between border-b border-white/20 pb-2">
-                        <span>Program Released:</span>
-                        <strong class="text-white">Sep 8</strong>
+                        <span class="line-through text-white/40">Program Released:</span>
+                        <strong class="line-through text-white/40">Sep 16</strong>
                     </div>
                     <div class="flex items-center justify-between border-b border-white/20 pb-2">
                         <span>Poster Submission Deadline:</span>
-                        <strong class="text-white">Sep 15</strong>
+                        <strong class="text-white">Sep 24</strong>
                     </div>
                     <div class="flex items-center justify-between border-b border-white/20 pb-2">
                         <span>Registration Deadline:</span>
-                        <strong class="text-white">Sep 20</strong>
+                        <strong class="text-white">Sep 24</strong>
                     </div>
                     <div class="flex items-center justify-between">
                         <span>NTN Days:</span>
@@ -472,7 +485,7 @@
                 <!-- Subtle Note -->
                 <p class="mt-4 text-sm text-white/60 italic">
                     <!-- Only a few talk slots left – submit yours soon! -->
-                     Talk submission is now closed! – but you can still submit your paper!
+                    Talk submission is now closed! – but you can still submit your paper!
                 </p>
 
                 <!-- Action Buttons -->
@@ -491,16 +504,339 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-4">Venue & Location</h2>
             <div class="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-6"></div>
-            <p class="max-w-3xl mx-auto text-lg text-white/80">
-                Hosted at the renowned <strong>LAAS-CNRS</strong> in Toulouse, France—a hub of aerospace innovation and
-                academic excellence.
+
+            <p class="max-w-3xl mx-auto text-lg text-white/80 mb-6">
+                Hosted at the renowned <strong>LAAS-CNRS</strong> in Toulouse, France — a hub of aerospace innovation
+                and academic excellence.<br>
                 Join us at the heart of Europe’s space ecosystem for two inspiring days.
             </p>
-            <div class="mt-10">
-                <a href="https://www.laas.fr/en/" target="_blank" rel="noopener noreferrer">
-                    <img src="logo-laas.jpg" alt="LAAS-CNRS Logo"
-                        class="mx-auto max-w-xs md:max-w-sm rounded-xl shadow-lg">
-                </a>
+
+            <!-- Address -->
+            <p class="text-white/60 mb-8 text-sm">
+                7 Av. du Colonel Roche, 31400 Toulouse, France
+            </p>
+
+            <!-- Map Embed with Marker -->
+            <div class="w-full h-96 mb-10">
+                <iframe
+                    src="https://www.google.com/maps?q=LAAS-CNRS,+7+Av.+du+Colonel+Roche,+31400+Toulouse,+France&output=embed"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="rounded-xl shadow-lg">
+                </iframe>
+            </div>
+
+            <!-- LAAS Logo -->
+            <a href="https://www.laas.fr/en/" target="_blank" rel="noopener noreferrer">
+                <img src="logo-laas.jpg" alt="LAAS-CNRS Logo" class="mx-auto max-w-xs md:max-w-sm rounded-xl shadow-lg">
+            </a>
+        </div>
+    </section>
+
+    <!-- Detailed Program Section -->
+    <section id="program" class="py-20 bg-gradient-to-br from-blue-900 to-indigo-900 text-white section">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-center">Program Schedule</h2>
+            <div class="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-10"></div>
+
+            <!-- Detailed Program Section: Wed Oct 1st - Morning -->
+            <div class="mb-10  mt-12">
+                <h3 class="text-2xl font-semibold text-white mb-4 border-b border-white/30 pb-2">
+                    Wed Oct 1st <span class="text-white/70">| Morning</span>
+                </h3>
+
+                <!-- Blue Item: Intro -->
+                <div class="mb-6 pl-4 border-l-4 border-blue-500">
+                    <div class="space-y-3 text-white/90 text-sm py-2 border-b border-white/20">
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">08h45</span>
+                            <span>Reception and Coffee</span>
+                            <span></span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">09h00</span>
+                            <span>Welcome Words (Organisation, TéSA, GDR IASIS & RSD)</span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Session 1 -->
+                <div class="mb-6 pl-4 border-l-4 border-purple-500">
+                    <h4 class="text-xl font-medium text-purple-300 mb-3">
+                        Session 1 – Perspectives & NTN Standards <span class="text-white/60">(09h15 - 11h00)</span>
+                    </h4>
+                    <div class="space-y-3 text-white/90 text-sm">
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">09h15</span>
+                            <span>6G NTN: The challenges for extending the terrestrial coverage</span>
+                            <span class="italic text-white/60">Ioannis Xirouchakis (Ericsson France)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">09h35</span>
+                            <span>5G NTN and 6G, status and perspectives for NTN at the 3GPP</span>
+                            <span class="italic text-white/60">Flavien Ronteix-Jacquet (Thales Alenia Space)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">09h55</span>
+                            <span>IRIS2 – Overview and challenges</span>
+                            <span class="italic text-white/60">Cédric Baudoin (Thales Alenia Space)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">10h15</span>
+                            <span>IoT, the spearhead of 5G NTN</span>
+                            <span class="italic text-white/60">Vincent Deslandes (Kinéis)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Session 1: Coffee Break -->
+                <div class="mb-6 pl-4 border-l-4 border-blue-400 mt-6">
+                    <div
+                        class="flex flex-col sm:flex-row justify-between text-white/90 text-sm mt-4 py-2 border-y border-white/20">
+                        <span class="text-white/70">10h45</span>
+                        <span>Coffee Break - Poster Session</span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- Session 2 -->
+                <div class="mb-6 pl-4 border-l-4 border-purple-500">
+                    <h4 class="text-xl font-medium text-purple-300 mb-3">
+                        Session 2 – Emerging IoT and NTN Technologies <span class="text-white/60">(11h15 - 12h30)</span>
+                    </h4>
+                    <div class="space-y-3 text-white/90 text-sm">
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">11h15</span>
+                            <span>Mioty® – the Best Technology for Satellite-Based IoT Applications</span>
+                            <span class="italic text-white/60">Fraunhofer IIS</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">11h35</span>
+                            <span>Increasing the throughput of Direct-to-Satellite Narrowband IoT networks</span>
+                            <span class="italic text-white/60">Zheng Zhou (LAAS-CNRS)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">11h55</span>
+                            <span>Achieving reduced latency and energy efficiency in Direct-to-Satellite LoRaWAN
+                                communications</span>
+                            <span class="italic text-white/60">Florian Rolland (LAAS-CNRS)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">12h15</span>
+                            <span>A Finer ALOHA-Based Analytical Model for LR-FHSS Performance Evaluation</span>
+                            <span class="italic text-white/60">Lamdani Wilem (Université de Rennes | IRISA)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Session 2: Lunch -->
+            <div class="mb-6 pl-4 border-l-4 border-blue-400 mt-6 mb-10">
+                <div
+                    class="flex flex-col sm:flex-row justify-between text-white/90 text-sm mt-4 py-2 border-y border-white/20">
+                    <span class="text-white/70">12h30</span>
+                    <span>Lunch</span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!-- Detailed Program Section: Wed Oct 1st - Afternoon -->
+            <div class="mb-10  mt-12">
+                <h3 class="text-2xl font-semibold text-white mb-4 border-b border-white/30 pb-2">
+                    Wed Oct 1st <span class="text-white/70">| Afternoon</span>
+                </h3>
+
+                <!-- Session 3 -->
+                <div class="mb-6 pl-4 border-l-4 border-purple-500">
+                    <h4 class="text-xl font-medium text-purple-300 mb-3">
+                        Session 3 – Constellations, Swarms, and QoS <span class="text-white/60">(14h00 - 15h30)</span>
+                    </h4>
+
+                    <!-- Talks -->
+                    <div class="space-y-3 text-white/90 text-sm">
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">14h00</span>
+                            <span>Satellite swarm network</span>
+                            <span class="italic text-white/60">Bernard Pontet (CNES)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">14h20</span>
+                            <span>Routing Strategies for Satellite Swarms in Space Missions</span>
+                            <span class="italic text-white/60">Bastien Tauran (Viveris)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">14h40</span>
+                            <span>Delay and Buffer Bounds for QoS in Satellite Constellation Networks</span>
+                            <span class="italic text-white/60">Jérôme Lacan (ISAE-SUPAERO)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">15h00</span>
+                            <span>Comment fiabiliser des réseaux ad-hoc en essaim</span>
+                            <span class="italic text-white/60">Evelyne Akopyan (LAAS-CNRS)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Session 3: Coffee Break -->
+                <div class="mb-6 pl-4 border-l-4 border-blue-400 mt-6">
+                    <div
+                        class="flex flex-col sm:flex-row justify-between text-white/90 text-sm mt-4 py-2 border-y border-white/20">
+                        <span class="text-white/70">15h30</span>
+                        <span>Coffee Break - Poster Session</span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- Session 4 -->
+                <div class="mb-6 pl-4 border-l-4 border-purple-500">
+                    <h4 class="text-xl font-medium text-purple-300 mb-3">
+                        Session 4 – NTN Experimentation and Integration <span class="text-white/60">(16h00 -
+                            17h45)</span>
+                    </h4>
+                    <div class="space-y-3 text-white/90 text-sm">
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">16h00</span>
+                            <span>NTNLab: An experimental platform to test and evaluate NTN and TN communications</span>
+                            <span class="italic text-white/60">Alexis Falempin (IRT Saint Exupéry)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">16h20</span>
+                            <span>Catalyzing Innovation: Bringing NTN to Automotive, IoT, and Beyond</span>
+                            <span class="italic text-white/60">Arpad Iozsa (Lasting Software)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">16h40</span>
+                            <span>Next Generation Network-assisted PNT Assurance</span>
+                            <span class="italic text-white/60">Eustachio Roberto Matera (Thales Services
+                                Numériques)</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between">
+                            <span class="text-white/70">17h00</span>
+                            <span>6G Laboratory in Orbit</span>
+                            <span class="italic text-white/60">Alexander Hofmann (Fraunhofer IIS)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Session 4: Dinner -->
+                <div class="pl-4 border-l-4 border-blue-400 mt-6 mb-10">
+                    <div
+                        class="flex flex-col sm:flex-row justify-between text-white/90 text-sm mt-4 py-2 border-y border-white/20">
+                        <span class="text-white/70">19h30</span>
+                        <span>Dinner <span class="text-white/60">(Costs not covered – place TBD)</span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- Detailed Program Section: Thu Oct 2nd - Morning -->
+                <div class="mb-10  mt-12">
+                    <h3 class="text-2xl font-semibold text-white mb-4 border-b border-white/30 pb-2">
+                        Thu Oct 2nd <span class="text-white/70">| Morning</span>
+                    </h3>
+
+                    <!-- Session 5 -->
+                    <div class="mb-6 pl-4 border-l-4 border-purple-500">
+                        <h4 class="text-xl font-medium text-purple-300 mb-3">
+                            Session 5 – IoT NTN Simulation and Optimization <span class="text-white/60">(09h00 -
+                                10h30)</span>
+                        </h4>
+                        <div class="space-y-3 text-white/90 text-sm">
+                            <div class="flex flex-col sm:flex-row justify-between">
+                                <span class="text-white/70">09h00</span>
+                                <span>Generating and Visualising Realistic Interplanetary Network Topologies with ESA’s
+                                    Astrodynamics Software and the IPN-v</span>
+                                <span class="italic text-white/60">Lucas Poulhe (INSA Lyon)</span>
+                            </div>
+                            <div class="flex flex-col sm:flex-row justify-between">
+                                <span class="text-white/70">09h20</span>
+                                <span>FLoRaSat 2: Simulating Cross-Linked Direct-to-Satellite IoT LEO
+                                    Constellations</span>
+                                <span class="italic text-white/60">Benoît Cougnet & Alexander Choquenaira (Inria)</span>
+                            </div>
+                            <div class="flex flex-col sm:flex-row justify-between">
+                                <span class="text-white/70">09h40</span>
+                                <span>Adaptations, Optimizations, and Learning Approaches for Direct-to-Satellite
+                                    IoT</span>
+                                <span class="italic text-white/60">Diego Maldonado (INRIA / INSA Lyon)</span>
+                            </div>
+                            <div class="flex flex-col sm:flex-row justify-between">
+                                <span class="text-white/70">10h00</span>
+                                <span>Delay-Tolerant Routing: A-SABR, the Adaptive Library for SABR</span>
+                                <span class="italic text-white/60">Longrui Ma (Inria)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Session 5: Coffee Break -->
+                    <div class="mb-6 pl-4 border-l-4 border-blue-400 mt-6">
+                        <div
+                            class="flex flex-col sm:flex-row justify-between text-white/90 text-sm mt-4 py-2 border-y border-white/20">
+                            <span class="text-white/70">10h30</span>
+                            <span>Coffee Break - Poster Session</span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <!-- Session 6 -->
+                    <div class="mb-6 pl-4 border-l-4 border-purple-500">
+                        <h4 class="text-xl font-medium text-purple-300 mb-3">
+                            Session 6 – Interplanetary and DTN Networks <span class="text-white/60">(11h00 -
+                                12h30)</span>
+                        </h4>
+                        <div class="space-y-3 text-white/90 text-sm">
+                            <div class="flex flex-col sm:flex-row justify-between">
+                                <span class="text-white/70">11h00</span>
+                                <span>Unraveling Temporal Challenges in Space Networking</span>
+                                <span class="italic text-white/60">Juan A. Fraire (Inria)</span>
+                            </div>
+                            <div class="flex flex-col sm:flex-row justify-between">
+                                <span class="text-white/70">11h20</span>
+                                <span>Design and Implementation of a Native Socket Interface for the Bundle
+                                    Protocol</span>
+                                <span class="italic text-white/60">Sylvain Pierrot (Polytech)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Session 6: Closing -->
+                    <div class="mb-6 pl-4 border-l-4 border-blue-400 mt-6">
+                        <div
+                            class="flex flex-col sm:flex-row justify-between text-white/90 text-sm mt-4 py-2 border-y border-white/20">
+                            <span class="text-white/70">11h40</span>
+                            <span>Closing perspectives & roundtable discussion</span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <!-- Session 6: Lunch -->
+                    <div class="mb-6 pl-4 border-l-4 border-blue-400 mt-6">
+                        <div
+                            class="flex flex-col sm:flex-row justify-between text-white/90 text-sm mt-4 py-2 border-y border-white/20">
+                            <span class="text-white/70">12h30</span>
+                            <span>Closing Session and Buffet Lunch</span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detailed Program Section: Thu Oct 2nd - Afternoon -->
+                <div class="mb-10  mt-12">
+                    <h3 class="text-2xl font-semibold text-white mb-4 border-b border-white/30 pb-2">
+                        Thu Oct 2nd <span class="text-white/70">| Afternoon</span>
+                    </h3>
+
+                    <!-- Side Meetings -->
+                    <div class="mb-6 pl-4 border-l-4 border-blue-400">
+                        <div
+                            class="flex flex-col sm:flex-row justify-between text-white/90 text-sm mt-4 py-2 border-b border-white/20">
+                            <span class="text-white/70">14h00</span>
+                            <span>Side Meetings <span class="text-white/60">(Scheduled independently by
+                                    participants)</span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>

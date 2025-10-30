@@ -10,9 +10,3 @@ IRIS2 – Overview and challenges
 Delay and Buffer Bounds for QoS in Satellite Constellation Networks
 Jérôme Lacan (ISAE-SUPAERO)
 
-17
-Axe espace LAAS : Télécommunication pour Nanosatellite
-Frederic Camps (LAAS-CNRS)
-
-19
-alex

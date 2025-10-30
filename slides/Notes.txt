@@ -1,0 +1,18 @@
+
+
+Missing:
+
+03
+Cédric Baudoin (Thales Alenia Space)
+IRIS2 – Overview and challenges
+
+11
+Delay and Buffer Bounds for QoS in Satellite Constellation Networks
+Jérôme Lacan (ISAE-SUPAERO)
+
+17
+Axe espace LAAS : Télécommunication pour Nanosatellite
+Frederic Camps (LAAS-CNRS)
+
+19
+alex
